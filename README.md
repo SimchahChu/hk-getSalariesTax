@@ -28,3 +28,6 @@ if not os.path.isfile('tax.csv'):
 else: 
    tax.to_csv('tax.csv', mode='a', header=False, index=False) 
 ```
+
+### Points to note
+- The template(s) used to generate the csv are subject to changes over the years. You may refer to the template folder for reference and more details.
